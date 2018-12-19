@@ -28,7 +28,7 @@ header h1 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, 10%);
 	transition: .3s;
 }
 
@@ -66,6 +66,10 @@ footer address:last-child {
 @media(min-width: 768px) {
 	#paineis-sobre {
 		margin-top: 0;	
+	}
+	.projetos-responsivo{
+		width:50%;
+		float: left;
 	}
 }
 
